@@ -1,0 +1,71 @@
+# 9498
+#score = int(input())
+# if score >= 90:
+#    print('a')
+# elif score >= 80:
+#     print('b')
+#elif score >= 70:
+#    print('c')
+# elif score >= 60:
+#     print('d')
+# else :
+#
+# print('f')
+
+# 2753
+# year = int(input())
+# if year%4 == 0 and year%100 != 0 or year%400 == 0:
+#     print('1')
+# else :
+#     print('0')
+
+# 14681
+# x = int(input())
+# y = int(input())
+# if x > 0 and y > 0:
+#     print('제 1사분면')
+# elif x < 0 and y > 0:
+#     print('제 2사분면')
+# elif x < 0 and y < 0:
+#     print('제 3사분면')
+# elif x > 0 and y < 0:
+#     print('제 4사분면')
+
+# 14681답
+# x = int(input())
+# y = int(input())
+# if x > 0:
+#     if y > 0:
+#         print(1)
+#     elif y < 0:
+#         print(4)
+# elif x < 0:
+#     if y > 0:
+#         print(2)
+#     elif y < 0:
+#         print(3)
+
+# 계산기
+# print('수 두개를 정하십시요')
+# a = int(input())
+# b = int(input())
+# print(' +, -, *, /중 하나를 입력하십시요')
+# m = input("")
+# if m == "+":
+#     print(a + b)
+# elif m == "-":
+#     print(a - b)
+# elif m == "*":
+#     print(a * b)
+# elif m == "/":
+#     print(a / b)
+# else :
+#     prin('error')
+
+ # 정각 판별 문제\
+# print("주의 무조건 시:분 으로 쓰며 00:00으로 써야합니다 (예 300:50(x) 03:50(o))")
+# time = input()
+# if time[-2] == "0" and time[-1] == "0":
+#     print('정각입니다')
+# else :
+#     print('정각이 아닙니다')
