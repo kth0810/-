@@ -1,0 +1,24 @@
+# movie = ['god', 'sleep', 'drop']
+# print(movie)
+# a = input()
+# movie.extend(a)
+# print(movie)
+# movie.pop(2)
+# print(movie)
+
+# data = [2,4,3,1,5,10,9]
+# data.sort()
+# print(data)
+# data.reverse()
+# print(data)
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+# e = int(input())
+# f = int(input())
+# g = int(input())
+# lis = [a,b,c,d,e,f,g]
+# print(min(lis))
+# print(max(lis))
