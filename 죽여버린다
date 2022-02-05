@@ -1,0 +1,123 @@
+# a = int(input())
+# n = 0
+# l = []
+# for i in range(a):
+#     b = int(input())
+#     l.append(b)
+# while n != a:
+#     b = int(input())
+#     l.append(b)
+#     n = n+1
+# print(min(l))
+# print(max(l))
+
+# n = int(input())
+# l = []
+# for i in range(n):
+#     a = int(input())
+#     l.append(a)
+# mx = l[0]
+# mn = l[0]
+# for j in range(len(l)):
+#     if l[j] > mx:
+#         mx = l[j]
+#     elif l[j] < mn:
+#         mn = l[j]
+# print(mx)
+# print(mn)
+#
+
+
+
+# a = int(input())
+# l = []
+# for i in range(a):
+#     b = int(input())
+#     l.append(b)
+# m = max(l)
+# n = 0
+# while n != a:
+#     print(l[n] / m * 100)
+#     c = l[n]/m*100
+#     l[n] = c
+#     n = n+1
+# print(sum(l)/a)
+
+
+
+
+
+
+# a = int(input())
+# l = []
+# for i in range(a):
+#     b = input()
+#     l.append(b)
+#     n = 0
+#     x= 0
+#     while n != 9:
+#         if l[n] == "o":
+#             print(x+1)
+#             x = x+1
+#         elif l[n] == "x":
+#             print(0)
+#             x = 0
+
+# t1 = ()
+# t2 = (1,) #1개의 요소만을 가질때는 요소 뒤에 , 를 붙여야 합니다!!
+# t3 = (1,2,3)
+# t4 = 1,2,3
+# t5 = ('a', 'b', ('ab', 'cd'))
+#
+# t1 = ('a', 'b', 'c')
+# print(t1)
+# t1 = ('b', 'd', 'c')
+# print(t1)
+
+# t1 = (1,2,'a','b')
+# print(t1)
+# print(type(t1))
+# print(t1[0])
+# print(t1[3])
+# print(t1[1:])
+# a = list(t1)
+# print(a)
+# print(type(a))
+
+# t1 = (1,2,'a', 'b')
+# t2 = (3,4)
+# print(t1+t2)
+# print(t2*3)
+# print(len(t1))
+
+# Sport = {"김연아":"피겨스케이팅", "류현진":"야구", "손흥민":"축구"}
+# print(Sport)
+# print(type(Sport))
+
+# a = {1:'hi'}
+# a1 = {'a':[1,2,3]}
+# print(a)
+# print(a1)
+
+
+# a = {1:"a"}
+# print(a)
+# a[2] = 'b'
+# a['name'] = 'son'
+# a[3] = [1,2,3]
+# print(a)
+# del a["name"]
+# print(a)
+# print(len(a))
+
+# grade = {'son':7, 'kane':10}
+# print(grade['son'])
+# print(grade['kane'])
+
+# a = {1:'a', 2:'b'}
+# print(a[1])
+# print(a[2])
+
+# a = {'a':1, 'b':2}
+# print(a['a'])
+# print(a['b'])# -
