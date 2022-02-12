@@ -1,0 +1,118 @@
+# print("Hello World")
+#
+# print("Hary's cosmatics")
+#
+# print('신씨가 소리질렸다. "도둑이야"')
+#
+# print('"c:Windowsd"')
+
+# print("안녕하세요, \n만나서 \t\t반갑습니다.")
+# \n 줄바꾸기
+# \t 띄어쓰기
+
+# print("오늘은", "일요일")
+#
+# print("naver;kakao;sk;samsung")
+#
+# print("naber/kakao/sk/samsung")
+#
+# print("first", end=''); print("second")
+#
+# print(5/3)
+
+# 삼성전자 = 50000
+# 총평가금액 = 삼성전자 * 10
+# print(총평가금액)# = print(삼성전자 * 10)
+#
+# 시가총액 = "298조"
+# 현재가 = "50000"# 50000
+# PER = 15.79
+#
+# s = "hello"
+# t = "python"
+# print(s+ "!" + t)
+#
+# 14:코딩에서의 사칙연산은 실제 수학에서의 연산 우선수위를 따른다
+#
+# type()#입력된 값의 자료형을 알려줌
+# type(124)
+# print(type(124))#정수형 - int
+# print(type(3.14))#실수형 - float
+# print(type("abcd"))#문자열 - str(string)
+
+# num_str = "720"
+# print(type(num_str))
+# print(type(int(num_str)))
+# print(int(num_str)+100)#정수형 값과 연산가능
+#
+# num = 100
+# print(type(num))
+# print(type(str(num)))
+# print(str(num)+"abcd")#문자열 값과 연산가능
+#
+# num = "15.79"
+# print(type(num))
+# print(type(float(num)))
+# print(float(num)+1.32)#실수형 값과 연산가능
+
+# letters = "python"
+# print(letters[0],letters[2])
+#
+# license_plate = "24가 2210"
+# print(license_plate[3:])
+
+# string = "홀짝홀짝홀짝"
+# print(string[0], string[2], string[4])
+# string[시작할위치:끝낼위치:건널뛸 문자의 개수]
+# print(string[::2])
+
+# string = "PYTHON"
+# print(string[::-1])
+
+# phone_number = "010-1111-2222"
+# replace(바뀔문자, 마꿀문자)
+# print(phone_number.replace("-"," "))
+
+# phone_number = "010-1111-2222"
+# print(phone_number.replace("-",""))
+
+# url = "http://sharebook.kr"
+# url_split = url.split(".")
+# print(url_split[-1])
+
+# a = "Hello!, my name is {}, i'm {} years old".format("python", "14")
+# print(a)
+
+# name1 = "김민수"
+# age1 = 10
+# name2 = "이철회"
+# age2 = 13
+# a = "이름 : {} 나이 : {} \n이름 : {} 나이 : {}".format(name1,age1,name2,age2)
+# print(a)
+
+# data = "    삼성전자     "
+# print(data.strip)
+
+# nums = [1, 2, 3, 4, 5]
+# print(sum(nums)/len(nums))
+# data = [2, 4, 3, 1, 5, 10, 9]
+# data.sort(reverse = True)
+# print(data)
+
+# data.sort()
+# data.reverse
+# print(data)
+
+# 논리연산자
+# == :서로 같다
+# != : 서로 같지 않다
+# >
+# <
+# >=
+# <=
+# and : 묶인 조건이 모두 참이면 참
+# or :묶인 조건들 중에 하나라도 참이라면 참
+
+# bool자료형 (True, False)
+# a = 7
+# print(a==7)
